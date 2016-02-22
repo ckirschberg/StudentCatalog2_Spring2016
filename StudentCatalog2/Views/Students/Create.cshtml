@@ -1,0 +1,36 @@
+﻿@model StudentCatalog2.Models.Student
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create (remember to fill out the attendance)</h2>
+
+
+@using (Html.BeginForm())
+{
+
+        @Html.ValidationSummary()
+
+        <div>
+        <label>Firstname</label>
+        @Html.TextBoxFor(a=>a.Firstname, new {placeholder="Firstname" })
+            <p>
+                @Html.ValidationMessageFor(a => a.Firstname)
+            </p>
+        </div>
+    <div>
+        <label>Lastname</label>
+        @Html.TextBoxFor(a => a.Lastname, new {@class= "nicolasStyle" })
+    </div>
+    <div>
+        <label>Email</label>
+        @Html.TextBoxFor(a => a.Email)
+    </div>
+
+    <div>
+        <label>MobilePhone</label>
+        @Html.TextBoxFor(a => a.MobilePhone)
+    </div>
+    <input type="submit" value="Save" class="btn btn-danger"/>
+}

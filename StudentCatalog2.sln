@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCatalog2", "StudentCatalog2\StudentCatalog2.csproj", "{D94FA225-AEB3-4E31-A141-698A69E7FD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCatalog2.Tests", "StudentCatalog2.Tests\StudentCatalog2.Tests.csproj", "{16D6DE15-CF56-452C-880A-F11A873B6020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D94FA225-AEB3-4E31-A141-698A69E7FD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94FA225-AEB3-4E31-A141-698A69E7FD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94FA225-AEB3-4E31-A141-698A69E7FD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94FA225-AEB3-4E31-A141-698A69E7FD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D6DE15-CF56-452C-880A-F11A873B6020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D6DE15-CF56-452C-880A-F11A873B6020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D6DE15-CF56-452C-880A-F11A873B6020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D6DE15-CF56-452C-880A-F11A873B6020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
